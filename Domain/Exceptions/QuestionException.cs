@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Quiz_Mircroservice.Domain.Exceptions
+{
+    public class QuestionException : DomainException
+    {
+        public QuestionException(string message) : base(message)
+        {
+        }
+    }
+}
