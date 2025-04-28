@@ -10,7 +10,7 @@ namespace Quiz_Mircroservice.Domain.Entities
     {
         private readonly HashSet<Answer> _answers = new();
         public QuestionText Text { get; private set; }
-        public IEnumerable<Answer> Answers => _answers.AsEnumerable(); // Доступ только для чтения
+        public IEnumerable<Answer> Answers => _answers.AsEnumerable(); 
         public AnswerIndex CorrectAnswerIndex { get; private set; }
       
 

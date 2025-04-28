@@ -8,9 +8,9 @@ namespace Quiz_Mircroservice.Domain.Entities
 {
     public class Quiz : EntityBase
     {
-        private readonly HashSet<Question> _questions = new(); // Используем HashSet для хранения 
+        private readonly HashSet<Question> _questions = new(); 
         public QuizTitle Title { get; private set; }
-        public IEnumerable<Question> Questions => _questions.AsEnumerable(); // Возвращаем IEnumerable
+        public IEnumerable<Question> Questions => _questions.AsEnumerable(); 
         public QuizStatus Status { get; private set; }
 
         public Quiz(QuizTitle title)
