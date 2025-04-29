@@ -3,7 +3,7 @@ using QuizMicroservice.Domain.Domain.ValueObjects.Base;
 using QuizMicroservice.Domain.Domain.ValueObjects.Exceptions;
 using System;
 
-namespace QuizMicroservice.Domain.Domain.ValueObjects.Validators
+namespace Domain.Validators
 {
     public class QuizValidator : IValidator<Quiz>
     {

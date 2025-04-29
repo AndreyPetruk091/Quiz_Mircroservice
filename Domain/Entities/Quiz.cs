@@ -1,10 +1,10 @@
-﻿using Quiz_Mircroservice.Domain.Entities.Base;
-using Quiz_Mircroservice.ValueObjects;
-using Quiz_Mircroservice.Domain.Enums;
+﻿using Domain.Entities.Base;
+using ValueObjects;
+using Domain.Enums;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Quiz_Mircroservice.Domain.Entities
+namespace Domain.Entities
 {
     public class Quiz : EntityBase
     {

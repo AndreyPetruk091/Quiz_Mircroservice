@@ -1,10 +1,10 @@
-﻿using Quiz_Mircroservice.Domain.Entities;
-using Quiz_Mircroservice.Repositories.Abstractions;
+﻿using Domain.Entities;
+using Repositories.Abstractions;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Quiz_Mircroservice.Services
+namespace Services
 {
     public class QuizService
     {

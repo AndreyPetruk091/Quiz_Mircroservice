@@ -1,11 +1,10 @@
-﻿using Quiz_Mircroservice.Domain.Entities;
-using Quiz_Mircroservice.Domain.Enums;
+﻿using Domain;
 using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Quiz_Mircroservice.Repositories.Abstractions
+namespace Repositories.Abstractions
 {
     public interface IQuizRepository : IRepository<Quiz>
     {
@@ -32,6 +31,6 @@ namespace Quiz_Mircroservice.Repositories.Abstractions
 
       
         Task SoftDeleteAsync(Guid quizId, CancellationToken cancellationToken);
-
+        Task AddAsync(Domain.Entities.Quiz quiz, CancellationToken ct);
     }
 }

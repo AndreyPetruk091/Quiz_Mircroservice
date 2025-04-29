@@ -2,7 +2,7 @@
 using QuizMicroservice.Domain.Domain.ValueObjects.Exceptions;
 using System.Text.RegularExpressions;
 
-namespace QuizMicroservice.Domain.Domain.ValueObjects.Validators
+namespace Domain.Validators
 {
     public class UsernameValidator : IValidator<string> // Изменен тип параметра
     {

@@ -2,7 +2,7 @@
 using ValueObjects.Base;
 using ValueObjects.Exceptions;
 
-namespace QuizMicroservice.Domain.Domain.ValueObjects.Validators
+namespace   ValueObjects.Validators
 {
     public class ParticipantValidator : IValidator<Participant>
     {

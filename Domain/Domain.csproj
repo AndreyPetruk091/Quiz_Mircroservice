@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Repositories.Abstractions\Repositories.Abstractions.csproj" />
+    <ProjectReference Include="..\ValueObjects\ValueObjects.csproj" />
+  </ItemGroup>
+
 </Project>

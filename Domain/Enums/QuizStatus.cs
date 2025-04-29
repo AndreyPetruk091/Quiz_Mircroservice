@@ -1,4 +1,4 @@
-﻿namespace Quiz_Mircroservice.Domain.Enums
+﻿namespace Domain.Enums
 {
     public enum QuizStatus
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Quiz_Mircroservice.Domain.Exceptions
+namespace Domain.Exceptions
 {
     public class DomainException : Exception
     {

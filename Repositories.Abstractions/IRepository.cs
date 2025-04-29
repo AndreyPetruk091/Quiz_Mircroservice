@@ -1,5 +1,5 @@
-﻿using Quiz_Mircroservice.Domain.Entities;
-using Quiz_Mircroservice.Domain.Entities.Base;
+﻿using Domain.Entities;
+using Domain.Entities.Base;
 using System;
 using System.Collections.Generic;
 using System.Threading;

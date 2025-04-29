@@ -1,8 +1,8 @@
-﻿using Quiz_Mircroservice.ValueObjects.Base;
-using Quiz_Mircroservice.ValueObjects.Exceptions;
-using Quiz_Mircroservice.ValueObjects.Validators;
+﻿using ValueObjects.Base;
+using ValueObjects.Exceptions;
+using ValueObjects;
 
-namespace Quiz_Mircroservice.ValueObjects
+namespace ValueObjects
 {
     public class Username : ValueObject
     {

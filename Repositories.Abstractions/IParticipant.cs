@@ -1,9 +1,9 @@
-﻿using Quiz_Mircroservice.Domain.Entities;
+﻿using Domain.Entities;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Quiz_Mircroservice.Repositories.Abstractions
+namespace Repositories.Abstractions
 {
     public interface IParticipantRepository : IRepository<Participant>
     {

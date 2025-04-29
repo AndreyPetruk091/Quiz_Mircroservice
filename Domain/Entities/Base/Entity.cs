@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Quiz_Mircroservice.Domain.Entities.Base
+namespace Domain.Entities.Base
 {
     public abstract class EntityBase
     {

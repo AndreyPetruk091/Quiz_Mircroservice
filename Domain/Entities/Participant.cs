@@ -1,8 +1,8 @@
-﻿using Quiz_Mircroservice.Domain.Entities.Base;
-using Quiz_Mircroservice.ValueObjects;
-using Quiz_Mircroservice.Domain.Exceptions;
+﻿using Domain.Entities.Base;
+using ValueObjects;
+using Domain.Exceptions;
 
-namespace Quiz_Mircroservice.Domain.Entities
+namespace Domain.Entities
 {
     public class Participant : EntityBase
     {
